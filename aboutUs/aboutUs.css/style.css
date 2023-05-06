@@ -227,11 +227,12 @@ footer {
     background-color: #060e1f;
     position: relative;
     width: 100%;
+    margin-top: 150px;
 }
 
 footer .footer_content {
     line-height: 45px;
-    margin-top: 55px;
+    margin-top: 100px;
 }
 
 footer .footer_content .footer_item h2 {
