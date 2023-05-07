@@ -479,6 +479,11 @@ a:hover {
     overflow: hidden;
 }
 
+/* .staff .staff-card .col .card .card-body {
+    z-index: 99;
+    opacity: 1;
+} */
+
 .staff .staff-title span {
     color: #ff6e65;
     font-size: 40px;
@@ -546,6 +551,7 @@ a:hover {
 
 .staff .staff-card .card h5 {
     cursor: pointer;
+    color: black;
 }
 
 .staff .staff-card .card:hover h5 {
