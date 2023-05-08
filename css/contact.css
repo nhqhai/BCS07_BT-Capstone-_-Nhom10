@@ -14,7 +14,7 @@ html{
 /* Phần top_header */
 
 header{
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 header .header_top{
   background-color: #0d369e;
@@ -208,6 +208,49 @@ header .form-control:focus {
 
 
 /* Phần Main */
+/* Phần BG */
+main .bg{
+  background-image: url(./../img/contact/bg4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-bottom: 100px;
+}
+main .bg a{
+  text-decoration: none;
+  color: #cacbb5;
+}
+main .bg h2{
+  left: 150px;
+  bottom: 150px;
+  position: absolute;
+  color: white;
+}
+main .bg h5{
+  left: 150px;
+  bottom: 120px;
+  position: absolute;
+  color: #cacbb5;
+  font-size: 14px;
+}
+@media (max-width: 690px) {
+  main .bg h2{
+    left: 20px;
+    bottom: 120px;
+    position: absolute;
+  }
+  main .bg h5{
+    left: 20px;
+    bottom: 90px;
+    position: absolute;
+    color: #cacbb5;
+    font-size: 16px;
+  }
+}
+
+
 /* Phần Contact */
 .contact{
   margin-bottom: 100px;
@@ -396,7 +439,12 @@ footer{
     top: -100px;
     box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
   }
-  
+
+  @media (max-width: 768px)  {
+    footer .footer_content{
+      margin-top: 100px;
+    }
+  }
   footer .footer_sub .footer_sub_content_item_right{
     display: flex;
   }
