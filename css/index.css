@@ -340,17 +340,17 @@ main {
 
 @media (min-width: 1480px) {
   .carousel .carousel_bottom .carousel_bottom_content {
-    max-width: 0 auto;
     position: absolute;
     left: 0;
     right: 0;
     bottom: -10px;
     z-index: 99;
+    overflow: hidden;
   }
 }
 
 .carousel_bottom_detail {
-  margin: 15px;
+  margin: 10px;
   border-radius: 8px;
   padding: 0 20px;
   margin-bottom: 10px;
