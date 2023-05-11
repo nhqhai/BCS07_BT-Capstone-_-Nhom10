@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
 /* Phần top_header */
 header .header_top {
     background-color: #0d369e;
@@ -62,9 +69,8 @@ header .header_top .header_top_content .header_top_right ul li i:hover {
 /* Phần Header Bottom */
 header .header_bottom {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255);
     border-style: none;
-    width: 100%;
     z-index: 9999;
 }
 
@@ -417,10 +423,6 @@ footer .footer_sub .footer_sub_content_item_right input:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     min-height: 300px;
     position: relative;
     z-index: 1;
@@ -454,6 +456,7 @@ a:hover {
     padding: 40px 30px;
     border-radius: 8px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .list-card .card .card-top i {
@@ -471,6 +474,7 @@ a:hover {
 /* STAFF */
 .staff .staff-card .col .card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .staff .staff-card .col .card .card-top {
@@ -478,11 +482,6 @@ a:hover {
     cursor: pointer;
     overflow: hidden;
 }
-
-/* .staff .staff-card .col .card .card-body {
-    z-index: 99;
-    opacity: 1;
-} */
 
 .staff .staff-title span {
     color: #ff6e65;
@@ -511,6 +510,7 @@ a:hover {
 .staff .staff-title span::after {
     left: 20px;
     bottom: -15px;
+    height: 3px;
 }
 
 .team-info {
@@ -519,7 +519,7 @@ a:hover {
     margin: 0;
     background: rgb(8 8 8 / 29%);
     padding: 20px 0;
-    transition: 1s all;
+    transition: .5s all;
     width: 100%;
     text-align: center;
     opacity: 0;

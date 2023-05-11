@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
 /* Phần top_header */
 header .header_top {
     background-color: #0d369e;
@@ -456,9 +462,10 @@ footer .footer_sub .footer_sub_content_item_right input:focus {
 }
 
 .blog .blog-post .post-left .card .card-body h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 30px;
+    cursor: pointer;
 }
 
 .blog .card .card-body h3:hover {
